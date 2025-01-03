@@ -33,8 +33,7 @@ function showDrinks(drinks) {
             const drinkInstructions = document.createElement('p');
             drinkInstructions.textContent = `${drink.strInstructions.slice(0, 15)}`;
 
-
-
+            
             const buttonsContaine = document.createElement('div');
             buttonsContaine.classList.add('buttons');
             const addToCartBtn = document.createElement('button');
