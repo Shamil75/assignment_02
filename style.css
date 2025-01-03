@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f9f9f9;
+}
+.search-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.searchBox {
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+}
+.searchbtn {
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+.product-container {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.cart-container {
+    width: 300px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    max-width: 300px;
+    align-self: flex-start;
+}
+.drink-Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background: white;
+    width: 300px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.drinkImage {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.CartBtn {
+    width: 150px;
+    margin: 5px;
+    cursor: pointer;
+}
+.cart-list {
+    list-style-type: decimal;
+    padding: 0;
+}
+.cart-item {
+    margin: 15px;
+}
+#Details {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.drink-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+    background: white;
+    width: 350px;
+    box-sizing: border-box;
+}
+.detailsImage {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
